@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "HmYen5k3uM2CndxOPP3rv0uhebdjh1md9VPvcaiKuOO6HRBJ6E8fR7z0G0yJaSQc9UVMdNcv4eKAts5mLHm3ZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleCalendar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jatapia\\.nuget\\packages\\google.apis\\1.60.0\\google.apis.1.60.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.auth\\1.60.0\\google.apis.auth.1.60.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.calendar.v3\\1.60.0.2993\\google.apis.calendar.v3.1.60.0.2993.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.core\\1.60.0\\google.apis.core.1.60.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.drive.v3\\1.60.0.2986\\google.apis.drive.v3.1.60.0.2986.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
