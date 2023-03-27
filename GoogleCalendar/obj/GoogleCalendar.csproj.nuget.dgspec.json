@@ -48,13 +48,31 @@
               "target": "Package",
               "version": "[1.60.0.2993, )"
             },
+            "Google.Apis.Drive.v2": {
+              "target": "Package",
+              "version": "[1.60.0.2964, )"
+            },
             "Google.Apis.Drive.v3": {
               "target": "Package",
               "version": "[1.60.0.2986, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "MimeTypeMapOfficial": {
+              "target": "Package",
+              "version": "[1.0.17, )"
+            },
+            "MimeTypes": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

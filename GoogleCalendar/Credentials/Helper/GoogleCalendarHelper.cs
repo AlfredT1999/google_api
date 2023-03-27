@@ -5,13 +5,13 @@ namespace GoogleCalendar.Credentials.Helper
 {
     public class GoogleCalendarHelper
     {
-        private static string[] _scopes =
+        private static readonly string[] _scopes =
         {
             "https://www.googleapis.com/auth/calendar",
             "https://www.googleapis.com/auth/calendar.events",
             "https://www.googleapis.com/auth/calendar.events.owned"
         };
-        private static string _creds = "credentials_calendar.json";
+        private static readonly string _creds = "credentials_calendar.json";
 
         protected GoogleCalendarHelper()
         {

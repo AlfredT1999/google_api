@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HmYen5k3uM2CndxOPP3rv0uhebdjh1md9VPvcaiKuOO6HRBJ6E8fR7z0G0yJaSQc9UVMdNcv4eKAts5mLHm3ZA==",
+  "dgSpecHash": "dDyvQMoHA7+lexHC8JSs+zqWb0BY+wX4zjThInQPTPxHA4BCRBltdkQt4o+7Gl54PmSGHsnyUsKs37u7Foh3iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleCalendar.csproj",
   "expectedPackageFiles": [
@@ -8,15 +8,32 @@
     "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.auth\\1.60.0\\google.apis.auth.1.60.0.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.calendar.v3\\1.60.0.2993\\google.apis.calendar.v3.1.60.0.2993.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.core\\1.60.0\\google.apis.core.1.60.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.drive.v2\\1.60.0.2964\\google.apis.drive.v2.1.60.0.2964.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.drive.v3\\1.60.0.2986\\google.apis.drive.v3.1.60.0.2986.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.2\\microsoft.aspnetcore.http.2.2.2.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.4\\microsoft.aspnetcore.openapi.7.0.4.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.2.0\\microsoft.extensions.dependencyinjection.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.extensions.objectpool\\2.2.0\\microsoft.extensions.objectpool.2.2.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.extensions.options\\2.2.0\\microsoft.extensions.options.2.2.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\mimetypemapofficial\\1.0.17\\mimetypemapofficial.1.0.17.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\mimetypes\\2.4.1\\mimetypes.2.4.1.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "C:\\Users\\jatapia\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\jatapia\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

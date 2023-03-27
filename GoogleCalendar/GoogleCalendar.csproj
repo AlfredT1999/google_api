@@ -7,9 +7,26 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.60.0.2993" />
+    <PackageReference Include="Google.Apis.Drive.v2" Version="1.60.0.2964" />
     <PackageReference Include="Google.Apis.Drive.v3" Version="1.60.0.2986" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.4" />
+    <PackageReference Include="MimeTypeMapOfficial" Version="1.0.17" />
+    <PackageReference Include="MimeTypes" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 

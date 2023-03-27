@@ -3,7 +3,6 @@ using Google.Apis.Calendar.v3;
 using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
-using Microsoft.AspNetCore.Mvc;
 
 namespace GoogleCalendar.Credentials.Helper
 {
@@ -19,6 +18,7 @@ namespace GoogleCalendar.Credentials.Helper
                 {
                     string credentialsPath = "token.json";
 
+#pragma warning disable CS0618 // Type or member is obsolete
                     credential = await GoogleWebAuthorizationBroker.AuthorizeAsync(
                         GoogleClientSecrets.Load(stream).Secrets,
                         scopes,
@@ -26,29 +26,34 @@ namespace GoogleCalendar.Credentials.Helper
                         CancellationToken.None,
                         new FileDataStore(credentialsPath, true)
                     );
+#pragma warning restore CS0618 // Type or member is obsolete
                 }
 
                 // define a service:
-                var service = EmptyResult;
-
                 if (creds.ToLower().Equals("credentials_calendar.json"))// For calendar
                 {
-                    service = new CalendarService(new BaseClientService.Initializer()
+                    var calendarService = new CalendarService(new BaseClientService.Initializer()
                     {
                         HttpClientInitializer = credential,
                         ApplicationName = "Google calendar api"
                     });
+
+                    return calendarService;
                 }
                 else if(creds.ToLower().Equals("credentials_drive.json"))// For drive
                 {
-                    service = new DriveService(new BaseClientService.Initializer()
+                    var driveService = new DriveService(new BaseClientService.Initializer()
                     {
                         HttpClientInitializer = credential,
                         ApplicationName = "Google drive api"
                     });
-                }
 
-                return service;
+                    return driveService;
+                }
+                else
+                {
+                    throw new ArgumentException();
+                }
             }
             catch (Exception)
             {
