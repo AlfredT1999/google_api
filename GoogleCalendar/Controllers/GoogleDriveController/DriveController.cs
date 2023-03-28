@@ -1,5 +1,4 @@
-﻿using GoogleCalendar.Credentials.Helper.GoogleDrive.credentials;
-using GoogleCalendar.Credentials.Helper.GoogleDrive.services;
+﻿using GoogleCalendar.Credentials.Helper.GoogleDrive.services;
 using GoogleCalendar.Credentials.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -51,11 +50,11 @@ namespace GoogleCalendar.Controllers.GoogleDriveController
             return Ok(await GoogleDrivePostsHelper.FileUploadInFolder(folderId, file));
         }
 
-        [HttpPost]
+        [HttpPut]
         [Route("[action]")]
         public async Task<IActionResult> DriveMoveFileToFolder(string fileId, string folderId)
         {
-            return Ok(await GoogleDrivePostsHelper.DriveMoveFileToFolder(fileId, folderId));
+            return Ok(await GoogleDriveUpdatesHelper.DriveMoveFileToFolder(fileId, folderId));
         }
     }
 }
