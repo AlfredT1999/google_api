@@ -1,8 +1,8 @@
-﻿using GoogleCalendar.Credentials.Helper;
+﻿using GoogleCalendar.Credentials.Helper.GoogleCalendar.services;
 using GoogleCalendar.Credentials.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace GoogleCalendar.Controllers
+namespace GoogleCalendar.Controllers.GoogleCalendarController
 {
     [Route("api/[controller]")]
     [ApiController]

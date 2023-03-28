@@ -1,7 +1,8 @@
 ﻿using Google.Apis.Calendar.v3.Data;
+using GoogleCalendar.Credentials.Helper.GoogleCalendar.credentials;
 using GoogleCalendar.Credentials.Models;
 
-namespace GoogleCalendar.Credentials.Helper
+namespace GoogleCalendar.Credentials.Helper.GoogleCalendar.services
 {
     public class GoogleCalendarHelper
     {
@@ -75,7 +76,7 @@ namespace GoogleCalendar.Credentials.Helper
         {
             try
             {
-                var service = await GoogleCredentials.GenerateUserCredential(_scopes, _creds); 
+                var service = await GoogleCredentials.GenerateUserCredential(_scopes, _creds);
                 Event eventCalendar = new()
                 {
                     Summary = request.Summary,
@@ -111,7 +112,7 @@ namespace GoogleCalendar.Credentials.Helper
 
                 // Retrieve the event from the API
                 Event googleEvent = await service.Events.Get("primary", request.Id).ExecuteAsync();
-                
+
                 googleEvent.Summary = request.Summary;
                 googleEvent.Location = request.Location;
                 googleEvent.Description = request.Description;

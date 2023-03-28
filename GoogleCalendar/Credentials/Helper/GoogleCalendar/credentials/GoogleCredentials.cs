@@ -4,7 +4,7 @@ using Google.Apis.Drive.v3;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 
-namespace GoogleCalendar.Credentials.Helper
+namespace GoogleCalendar.Credentials.Helper.GoogleCalendar.credentials
 {
     public static class GoogleCredentials
     {
@@ -40,7 +40,7 @@ namespace GoogleCalendar.Credentials.Helper
 
                     return calendarService;
                 }
-                else if(creds.ToLower().Equals("credentials_drive.json"))// For drive
+                else if (creds.ToLower().Equals("credentials_drive.json"))// For drive
                 {
                     var driveService = new DriveService(new BaseClientService.Initializer()
                     {
