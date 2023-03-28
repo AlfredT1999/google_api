@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dDyvQMoHA7+lexHC8JSs+zqWb0BY+wX4zjThInQPTPxHA4BCRBltdkQt4o+7Gl54PmSGHsnyUsKs37u7Foh3iw==",
+  "dgSpecHash": "lGRg1Zksdmls448vfoVrOX0MJMGIeSr9hV4AJ4dkOcPZc8c3Lx+wgc66ChW8gIxbPJdE9AbqqRa2g1smRTuIHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleCalendar.csproj",
+  "projectFilePath": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jatapia\\.nuget\\packages\\google.apis\\1.60.0\\google.apis.1.60.0.nupkg.sha512",
     "C:\\Users\\jatapia\\.nuget\\packages\\google.apis.auth\\1.60.0\\google.apis.auth.1.60.0.nupkg.sha512",

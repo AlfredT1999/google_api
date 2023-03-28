@@ -1,14 +1,13 @@
 ﻿using Google.Apis.Drive.v2;
 using GoogleCalendar.Credentials.Helper.GoogleDrive.credentials;
-using GoogleCalendar.Credentials.Models;
 using Google.Apis.Drive.v2.Data;
 using File = Google.Apis.Drive.v2.Data.File;
+using GoogleServices.Credentials.Models.GoogleDrive;
 
 namespace GoogleCalendar.Credentials.Helper.GoogleDrive.services
 {
     public class GoogleDriveGetsHelper : GoogleDriveHelper
     {
-        // ************************* gets section *********************************
         public async static Task<List<GoogleDriveFile>> GetFolderContent(string folderId)
         {
             List<string> ChildList = new();
@@ -113,10 +112,13 @@ namespace GoogleCalendar.Credentials.Helper.GoogleDrive.services
 
         public async static Task<bool> IsFileInFolder(UploadInFolder data)
         {
+            if (data.FolderId == null) return false;
+            if (data.FileId == null) return false;
+
             try
             {
                 DriveService serviceV2 = await GetServiceV2();
-                var res = serviceV2.Children.Get(data.FolderId, data.FileId).Execute();
+                var res = await serviceV2.Children.Get(data.FolderId, data.FileId).ExecuteAsync();
 
                 if (res == null)
                 {
@@ -128,7 +130,7 @@ namespace GoogleCalendar.Credentials.Helper.GoogleDrive.services
             catch (Exception e)
             {
                 Console.WriteLine("An error occurred: " + e.Message);
-                throw;
+                return false;
             }
         }
     }

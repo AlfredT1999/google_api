@@ -1323,9 +1323,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleCalendar.csproj",
-      "projectName": "GoogleCalendar",
-      "projectPath": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleCalendar.csproj",
+      "projectUniqueName": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleServices.csproj",
+      "projectName": "GoogleServices",
+      "projectPath": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\GoogleServices.csproj",
       "packagesPath": "C:\\Users\\jatapia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jatapia\\Documents\\calendarASP\\GoogleCalendar\\GoogleCalendar\\obj\\",
       "projectStyle": "PackageReference",

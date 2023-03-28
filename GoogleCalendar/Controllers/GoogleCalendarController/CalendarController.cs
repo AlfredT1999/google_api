@@ -1,5 +1,5 @@
 ﻿using GoogleCalendar.Credentials.Helper.GoogleCalendar.services;
-using GoogleCalendar.Credentials.Models;
+using GoogleServices.Credentials.Models.GoogleCalendar;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GoogleCalendar.Controllers.GoogleCalendarController

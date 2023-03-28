@@ -29,31 +29,14 @@ namespace GoogleCalendar.Credentials.Helper.GoogleCalendar.credentials
 #pragma warning restore CS0618 // Type or member is obsolete
                 }
 
-                // define a service:
-                if (creds.ToLower().Equals("credentials_calendar.json"))// For calendar
+                
+                var calendarService = new CalendarService(new BaseClientService.Initializer()
                 {
-                    var calendarService = new CalendarService(new BaseClientService.Initializer()
-                    {
-                        HttpClientInitializer = credential,
-                        ApplicationName = "Google calendar api"
-                    });
+                    HttpClientInitializer = credential,
+                    ApplicationName = "Google calendar api"
+                });
 
-                    return calendarService;
-                }
-                else if (creds.ToLower().Equals("credentials_drive.json"))// For drive
-                {
-                    var driveService = new DriveService(new BaseClientService.Initializer()
-                    {
-                        HttpClientInitializer = credential,
-                        ApplicationName = "Google drive api"
-                    });
-
-                    return driveService;
-                }
-                else
-                {
-                    throw new ArgumentException();
-                }
+                return calendarService;
             }
             catch (Exception)
             {

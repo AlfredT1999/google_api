@@ -1,4 +1,4 @@
-﻿namespace GoogleCalendar.Credentials.Models
+﻿namespace GoogleServices.Credentials.Models.GoogleCalendar
 {
     public class GoogleCalendarEvent
     {

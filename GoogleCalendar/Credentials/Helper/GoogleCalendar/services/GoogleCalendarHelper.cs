@@ -1,6 +1,6 @@
 ﻿using Google.Apis.Calendar.v3.Data;
 using GoogleCalendar.Credentials.Helper.GoogleCalendar.credentials;
-using GoogleCalendar.Credentials.Models;
+using GoogleServices.Credentials.Models.GoogleCalendar;
 
 namespace GoogleCalendar.Credentials.Helper.GoogleCalendar.services
 {
